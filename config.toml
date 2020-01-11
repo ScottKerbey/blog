@@ -1,0 +1,56 @@
+baseURL = "https://skerbeyblog.azureedge.net/"
+languageCode = "en"
+title = "Scott Kerbey's Tech Blog"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "Skerbey"
+
+[params]
+    author = "Scott Kerbey"
+    info = "Data Scientist and Tech Enthusiast"
+    description = "Scott Kerbey's personal website"
+    keywords = "blog,developer,data,science,software,personal"
+    avatarurl = "/img/profile.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    #footercontent = "Welcome to my website."
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/ScottKerbey"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/scott-kerbey-a7ab7170/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
